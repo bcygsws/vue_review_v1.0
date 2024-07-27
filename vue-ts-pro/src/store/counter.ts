@@ -1,10 +1,9 @@
 import {defineStore} from 'pinia';
 
-const useCounter = defineStore({
-    id: 'counter',
+const useCounter = defineStore('counter', {
     state: () => ({
         count: 1,
-        name: "张一一",
+        name: "百里东君",
         height: 172,
         bannerList: []
     }),
